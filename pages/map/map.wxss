@@ -1,0 +1,112 @@
+/* pages/map/map.wxss */
+.search_h{
+    height: 6vh;
+}
+.map {
+    width: 100vw;
+    position: relative;
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    height: 25vh;
+    background-color: #fff;
+    width: 100vw;
+    border: 1rpx solid white;
+}
+
+.text {
+    margin-top: 40rpx;
+    padding-left: 40rpx;
+    padding-right: 40rpx;
+}
+
+.fir {
+    font-size: 40rpx;
+}
+
+.sec {
+    font-size: 30rpx;
+}
+
+.bind {
+    margin-top: 40rpx;
+    background-color: #00a0ae;
+    font-size: 35rpx;
+    color: white;
+    width: 80vw;
+    padding: 10rpx 0;
+    border-radius: 20rpx;
+}
+
+.bind::after {
+    border: 0;
+}
+
+.myLocal{
+    position: absolute;
+    display: inline-block;
+
+    /* top: 60vh; */
+    bottom: 100rpx;
+    left: 30rpx;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 0;
+    width: 80rpx;
+    height: 80rpx;
+    box-shadow: 0 0 10rpx black;
+    z-index: 10;
+    
+}
+
+.myLocal image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50rpx;
+    height: 50rpx;
+    
+}
+
+.out_localCenter{
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 80rpx;
+    height: 80rpx;
+
+    font-size: 0;
+    z-index: 10;
+}
+
+
+.localCenter{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.boxStatus{
+    float: right;
+    font-size: 30rpx;
+}
+
+.sucBox{
+    color: #00a0ae;
+}
+
+.faiBox{
+    color: red;
+}
+

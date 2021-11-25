@@ -1,0 +1,12 @@
+<!--pages/getScore/getSuccess/getSuccess.wxml-->
+<view class="header">领取积分</view>
+<view class="content-bg">
+<view class="receive-score">
+<image src="../../../img/getScoreSuccess.png" alt="" mode="aspectFit"/>
+<view class="receive-score-success">领取积分成功</view>
+<view class="goExchange">快去兑换吧~</view>
+<button  class="confirm-btn" data-url="/pages/shopping/shopping" bindtap="toPage">去使用</button>
+<button class="cancel-btn" data-url="/pages/index/index" bindtap="toPage">取消</button>
+</view>
+</view>
+<view class="footer"></view>

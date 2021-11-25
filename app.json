@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/getInfo/getInfo",
+
+        "pages/getScore/getScore",
+
+        "pages/myInfo/myInfo",
+
+        "pages/getScore/getSuccess/getSuccess",
+
+
+        "pages/map/map",
+       
+        "pages/index/index",
+      
+
+        "pages/myInfo/throwBottleHis/throwBottleHis",
+
+        "pages/web/web",
+        "pages/shopping/shopping",
+        "pages/shopping/goods/goods",
+        "pages/login/login",
+        "pages/coupon/coupon",
+        "pages/card/card",
+        "pages/bindCard/bindCard",
+        "pages/exchange/exchange",
+        "pages/myInfo/historyBottle/historyBottle",
+        "pages/myInfo/aboutAs/companyCapacity/companyCapacity",
+        "pages/myInfo/aboutAs/companyLoc/companyLoc",
+        "pages/myInfo/aboutAs/weChatOfficial/weChatOfficial",
+        "pages/myInfo/historyExchange/historyExchange",
+        "pages/myInfo/aboutAs/aboutAs",
+        "pages/myInfo/faceCheck/faceCheck",
+        "pages/findBox/findBox",
+        "pages/score/score",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#00a0ae",
+        "navigationBarTitleText": "首页",
+        "navigationBarTextStyle": "white"
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "用户找箱子持续后台定位" 
+        }
+    },
+    "sitemapLocation": "sitemap.json"
+}

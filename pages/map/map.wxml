@@ -1,0 +1,52 @@
+<view class='bg'>
+
+    <!-- 自定义搜索组件 -->
+    <yy-search bind:searchText="getAdd" searchTip="搜索" dataList="{{addList}}" bind:orderNum="reLocation" class="search_h"></yy-search>
+
+    <!-- 地图调用 -->
+    <!-- regionChange===地图视野变化执行 -->
+    <map class="map" latitude="{{mapData.latitude}}" longitude="{{mapData.longitude}}" show-location="true" bindregionchange="regionChange" style="height:{{b_width}}" markers="{{markers}}" show-location bindmarkertap="markertap" show-compass show-scale>
+
+        <!-- 坐标中心点 -->
+        <view class="out_localCenter">
+            <image src="../../img/localCenter.png" mode="widthFix" class="localCenter"></image>
+        </view>
+
+
+        <!-- 返回当前位置按钮 -->
+        <view class="myLocal" catchtap="myLocal">
+            <image src="../../img/local.png" mode="widthFix" catchtap="myLocal"></image>
+        </view>
+    </map>
+
+    <!-- 所选中位置具体信息  占位 -->
+    <view class="bottom">
+        <view class="text">
+            <view class="fir">
+                {{btmData.find_title}}
+
+                <text class="boxStatus">
+                
+                    <block wx:if='{{btmData.status===1}}'>
+                        <text class="sucBox">可以投递</text>
+                </block>
+
+                <block wx:elif='{{btmData.status===2}}'>
+                    <text class="faiBox">暂停投递</text>
+                </block>
+
+                <block wx:else>
+                    <text></text>
+                </block>
+
+                </text>
+            </view>
+            <view class="sec">
+                {{btmData.find_add}}
+            </view>
+        </view>
+        <!-- 去那里入口按钮 -->
+        <button class="bind" catchtap="reLocation">去那里</button>
+    </view>
+
+</view>

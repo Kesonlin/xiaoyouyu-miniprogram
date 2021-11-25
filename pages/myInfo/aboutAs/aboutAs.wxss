@@ -1,0 +1,49 @@
+/* pages/myInfo/aboutAs/aboutAs.wxss */
+
+.bg {
+    background-color: white;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo image {
+    width: 300rpx;
+}
+
+.item {
+    position: relative;
+    background-color: white;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 35rpx 0 35rpx 20rpx;
+    border-top: 1rpx rgb(206, 206, 206) solid;
+    font-weight: bold;
+    font-size: 34rpx;
+}
+
+.item::after {
+    position: absolute;
+    content: "\e637";
+    color: #dbdbdb;
+    font-size: 80rpx;
+    right: 0;
+    line-height: 34rpx;
+}
+
+.item:last-child{
+    border-bottom: 1rpx rgb(206, 206, 206) solid;
+}
+
+
+.item:nth-child(5)::after{
+    content: ''
+}
+
+
+.float-r{
+    float: right;
+    color: #dd621a;
+    margin-right: 40rpx;
+}

@@ -1,0 +1,10 @@
+/* pages/score/score.wxss */
+
+.score{
+    text-align: center;
+    margin-top: 45vh;
+}
+
+.score text{
+    color: #dd621a;
+}

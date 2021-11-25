@@ -1,0 +1,26 @@
+<view class='bg iconfont'>
+
+
+    <block wx:if='{{loadingEnd}}'>
+
+
+        <block wx:if='{{data}}'>
+            <view class="item" wx:for='{{data}}'>
+                <view class="item-title">
+                    <view>{{item.name}}</view>
+                    <view>-{{item.score}}积分</view>
+                </view>
+                <view class="item-time">{{item.date}}</view>
+                <view class="item-loc">
+                    <image src="/assets/img/logoicon.jpg" mode="widthFix"></image>
+
+                    <text>{{item.model}}</text>
+                </view>
+            </view>
+        </block>
+
+        <block wx:else>
+            <view class="not-history">暂无兑换历史</view>
+        </block>
+    </block>
+</view>

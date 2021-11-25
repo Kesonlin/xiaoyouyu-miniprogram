@@ -1,0 +1,40 @@
+/* pages/card/card.wxss */
+
+.bind {
+    position: fixed;
+    margin: 0 auto;
+    bottom: 20rpx;
+    width: 45vw;
+    left: 27.5vw;
+    background-color: #00a0ae;
+    border-radius: 20rpx;
+    font-size: 35rpx;
+    color: white;
+}
+
+.bind::after {
+    border: 0;
+}
+
+.cardOut {
+    padding-top: 30rpx;
+    box-shadow: -10rpx 0 15rpx black;
+    background-color: #fff;
+}
+
+.cardOut image {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.cardOut view{
+    position: absolute;
+    z-index: 1;
+    bottom: 10rpx;
+    right: 25rpx;
+    color: white;
+    text-shadow: 0rpx 5rpx 20rpx gray; 
+    font-size: 30rpx;
+}

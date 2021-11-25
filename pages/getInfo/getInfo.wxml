@@ -1,0 +1,39 @@
+<view class="bg_fir">
+
+    <view class="out">
+
+        <view class="avout">
+            <view class="avatar">
+                <!-- logo -->
+                <image src="../../img/logo.jpg" mode="widthFix"></image>
+            </view>
+            <view class="text_sec">小鱿鱼智能塑料瓶回收箱</view>
+        </view>
+
+        <view class="QX_text">
+
+
+            <view class="QX_fir">
+                <view>小鱿鱼智能塑料瓶回收箱申请获得以下权限
+                </view>
+                <view class="QX_sec">
+                    <view>
+                        <text>·</text> 获取你的公开信息（昵称、头像等） </view>
+
+                    <view>
+                        <text>·</text> 获取你的微信绑定的手机号
+                    </view>
+
+                </view>
+            </view>
+        </view>
+
+        <view>
+            <button class="{{flag?'hide':'show'}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">确认授权</button>
+
+            <button class="wxPhoneLogin {{flag?'show':'hide'}}" open-type='getPhoneNumber' bindgetphonenumber='getPhone'>微信手机号快捷登录</button>
+            
+        </view>
+        <!-- <view wx:else class="elseTip">请升级微信版本</view> -->
+    </view>
+</view>

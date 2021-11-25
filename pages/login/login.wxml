@@ -1,0 +1,23 @@
+<!-- logo -->
+<view class='img'>
+    <view class="img_logo_out">
+        <image src="../../img/logo.jpg" mode="widthFix" class="img_logo"></image>
+    </view>
+</view>
+
+<!-- 登录按钮 -->
+
+<view class="login-out">
+    <button class="wxPhoneLogin" open-type='getPhoneNumber' bindgetphonenumber='getPhone'>微信手机号快捷登录</button>
+    <view>
+        <view class="noLoginBtn">
+            暂不登录
+        </view>
+        <!-- <view class="otherPhoneLogin">
+            其他手机登录
+        </view> -->
+    </view>
+
+</view>
+
+<view class="tip">温馨提示：未注册账号的用户，初次登录时将完成注册</view>

@@ -1,0 +1,13 @@
+<view class='bg'>
+
+    <view class="out">
+        <view class="in-pic">摄像头人脸图片</view>
+    </view>
+
+
+
+    <view class="push-btn">
+    确认
+    
+    </view>
+</view>

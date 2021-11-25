@@ -1,0 +1,59 @@
+/* pages/shopping/shopping.wxss */
+
+
+.flex{
+    margin-top: 30rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 20rpx;
+}
+.item{
+    position: relative;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    height: 400rpx;
+    width: 44%;
+    /* background-color: rebeccapurple; */
+    margin: 20rpx;
+    border-radius: 10rpx;
+    border: 1rpx rgb(204, 204, 204) solid;
+    /* box-sizing: content-box; */
+    /* margin-right: auto; */
+    z-index: 2;
+}
+
+
+.item-pic{
+    width: 99%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.item-title{
+    font-size: 28rpx;
+    /* flex: 1; */
+    
+}
+
+.item-bt{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 28rpx;
+    margin: 20rpx 0;
+}
+
+
+.j-color{
+    color: #00a0ae;
+}
+
+.btn{
+    color: #00a0ae;
+}

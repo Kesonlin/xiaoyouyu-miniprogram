@@ -1,0 +1,40 @@
+/* pages/myInfo/faceCheck/faceCheck.wxss */
+
+.bg{
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.out{
+    margin-top: 100rpx;
+    display: flex;
+    justify-content: center;
+}
+
+.in-pic{
+    display: flex;
+    width: 400rpx;
+    height: 400rpx;
+    border-radius: 400rpx;
+    background-color: #d7d7d7;
+    border: 20rpx solid #00a0ae;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.push-btn{
+    position: fixed;
+    bottom: 50rpx;
+    width: 80vw;
+    left: 0;
+    right: 0;
+    background-color: #00a0ae;
+    margin: auto;
+    height: 110rpx;
+    border-radius: 20rpx;
+    font-size: 36rpx;
+    line-height: 110rpx;
+    color: white;
+}

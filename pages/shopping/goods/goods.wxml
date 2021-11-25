@@ -1,0 +1,25 @@
+<view class='bg'>
+    <!-- 商品信息 -->
+    <view class="good-info">
+        <image mode="aspectFill" src="{{good.picturePath}}"></image>
+        <view class="good-info-title">{{good.name}}</view>
+        <view class="good-info-num">
+            <text>{{good.score}}</text>积分
+        </view>
+    </view>
+
+    <!-- 商品介绍 -->
+    <view class="good-introduce">
+        <view class="good-introduce-title">商品介绍</view>
+        <view class="good-introduce-content">
+            暂时没有产品相关信息
+        </view>
+
+    </view>
+
+
+    <!-- 兑换btn -->
+    <view class="btn">立即兑换
+    </view>
+
+</view>

@@ -1,0 +1,102 @@
+/* pages/getInfo/getInfo.wxss */
+
+.bg_fir {
+    height: 100vh;
+    background-color: white;
+}
+
+.out {
+    margin: 0 50rpx;
+    margin-top: 100rpx;
+    /* background-color: purple; */
+}
+
+.avout {
+    position: relative;
+    text-align: center;
+}
+
+.avout::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70rpx;
+    margin: auto;
+    width: 85vw;
+    border-bottom: 1.5rpx solid #e6e6e6;
+    content: "";
+    height: 1px;
+}
+
+.avatar {
+    margin: 0 auto;
+    border-radius: 50% 50%;
+    overflow: hidden;
+    font-size: 0;
+    width: 150rpx;
+}
+
+.avatar image {
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.text_sec {
+    padding: 20rpx 0;
+    padding-top: 40rpx;
+}
+
+.QX_text {
+    margin-top: 180rpx;
+    text-align: left;
+}
+
+.QX_fir {
+    font-size: 33rpx;
+}
+
+.QX_sec {
+    font-size: 25rpx;
+    color: #a8a8a8;
+    padding: 35rpx 0;
+}
+
+.QX_sec text {
+    font-size: 30rpx;
+    color: black;
+    font-weight: bolder;
+}
+
+.hide {
+    margin-top: 50rpx;
+    border-radius: 40rpx;
+    color: white;
+    background-color: #00a0ae;
+    display: none;
+}
+
+.show {
+    margin-top: 50rpx;
+    border-radius: 40rpx;
+    color: white;
+    background-color: #00a0ae;
+}
+
+.hide::after {
+    border: 0;
+}
+
+.show::after {
+    border: 0;
+}
+
+.elseTip {
+    text-align: center;
+    color: red;
+}
+
+.wxPhoneLogin{
+    background-color: var(--green-color);
+    color: white;
+    font-weight: bold;
+}

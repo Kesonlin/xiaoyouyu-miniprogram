@@ -1,0 +1,4 @@
+<!--pages/score/score.wxml-->
+<view class="score">获得的积分为:
+    <text>{{score}}</text>分
+</view>

@@ -1,0 +1,5 @@
+<map class="map" latitude="{{latitude}}" longitude="{{longitude}}" show-location="true" markers="{{markers}}" show-location bindmarkertap="markertap" show-compass show-scale>
+
+    <view class="toCompany" catchtap="handleToCompany">导航去公司</view>
+
+</map>

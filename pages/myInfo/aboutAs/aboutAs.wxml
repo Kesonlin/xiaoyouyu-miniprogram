@@ -1,0 +1,16 @@
+<view class="bg iconfont">
+    <!-- logo -->
+    <view class="logo">
+        <image src="/img/logo.jpg" mode="widthFix"></image>
+    </view>
+
+
+    <!-- item -->
+    <view class="item" data-url="/pages/myInfo/aboutAs/companyCapacity/companyCapacity" bindtap="toPage">公司资质</view>
+    <view class="item" data-url="/pages/myInfo/aboutAs/companyLoc/companyLoc" bindtap="toPage">公司地址</view>
+    <view class="item" data-url="/pages/myInfo/aboutAs/weChatOfficial/weChatOfficial" bindtap="toPage">微信公众号</view>
+    <view class="item">官网
+        <view class="float-r">www.xiaoyouyubox.cn</view>
+    </view>
+
+</view>

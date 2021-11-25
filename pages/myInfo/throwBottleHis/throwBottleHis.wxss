@@ -1,0 +1,81 @@
+/* pages/myInfo/throwBottleHis/throwBottleHis.wxss */
+.word {
+  margin: 20rpx 10rpx 5rpx 20rpx;
+  font-weight: 500;
+  font-size: 24rpx;
+}
+
+.total {
+  margin: 0 auto 40rpx;
+  width: 400rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  box-shadow: rgb(0 0 0 / 40%) 0px 5rpx 14rpx 0rpx;
+  /* background-color: pink; */
+}
+
+.total text {
+  margin-right: 15rpx;
+  font-weight: 700;
+}
+
+.bottleRecord {
+  display: flex;
+}
+
+.bottleRecord .item {
+  margin: 0 auto 5rpx;
+  width: 90%;
+  height: 220rpx;
+  box-shadow: rgb(213 193 193 / 40%) 0rpx 5rpx 14rpx 0rpx;
+  /* background-color: pink; */
+}
+
+.throwInfo {
+  margin: 15rpx 0 0rpx 12rpx;
+  font-size: 20rpx;
+}
+
+.throwInfo .dataTime {
+  margin-right: 10rpx;
+  color: rgb(16, 16, 16);
+  font-weight: 500;
+}
+
+.throwInfo .weekTime {
+  color: rgba(153, 153, 153, 1);
+}
+
+.throwInfo .sunTime {
+  float: right;
+  margin-right: 25rpx;
+}
+
+.throwInfo .sunTime text {
+  margin-right: 15rpx;
+  color: rgb(20, 157, 171);
+  font-weight: 500;
+  font-size: 24rpx;
+}
+
+.bottleInfo{
+  margin-left: 10rpx;
+}
+
+.bottleDetail {
+  width: 120rpx;
+  height: 150rpx;
+  font-size: 20rpx;
+  /* background-color: pink; */
+}
+
+.bottleDetail image {
+  width: 100%;
+  height: 100rpx;
+} 
+
+.bottleDetail .bottleNet {
+  color: rgb(153, 153, 153);
+}

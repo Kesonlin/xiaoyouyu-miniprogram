@@ -1,0 +1,98 @@
+/* pages/getScore/getScore.wxss */
+page {
+  /* background-color: #4e6ef2; */
+ /* position: relative; */
+  /* align-items: center; */
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.header {
+  width: 100%;
+  height: 140rpx;
+  padding-top: 30rpx;
+  line-height: 150rpx;
+  text-align: center;
+  background-color: #00a0ae;
+}
+
+.content-bg {
+  position: absolute;
+  top: -100rpx;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* height: 100%; */
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.receive-score {
+  width: 450rpx;
+  height: 480rpx;
+  text-align: center;
+  border-radius: 15rpx;
+  margin-top: 500rpx; 
+  background-color: #fff;
+}
+
+image {
+  margin-top: 20rpx;
+  width: 150rpx;
+  height: 150rpx;
+  /* vertical-align: top; */
+}
+
+.receive-score-success {
+  font-size: 28rpx;
+  font-weight: 700;
+}
+
+.get-score {
+  margin-bottom: 35rpx;
+  overflow: hidden;
+  /* height: 80rpx; */
+  font-size: 28rpx;
+  /* line-height: 100rpx; */
+  /* vertical-align: middle; */
+}
+
+.get-score  text{
+  padding-right: 25rpx;
+  font-size: 75rpx;
+  font-weight: 700;
+  color: #f16b1d;
+  line-height: 100rpx;
+  vertical-align: middle;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  width: 150rpx;
+  height: 55rpx;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  line-height: 55rpx;
+  
+ 
+}
+
+.confirm-btn {
+  margin-right: 65rpx;
+  color: #fff;
+  background-color: #0b9eb5;
+}
+
+.cancel-btn {
+  color: #000;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 100rpx;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+}

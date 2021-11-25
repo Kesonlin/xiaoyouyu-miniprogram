@@ -1,0 +1,19 @@
+<view class="flex">
+
+
+    <block wx:for='{{goods}}' wx:key='*this'>
+        <view class="item" data-id="{{index}}" bindtap="toGoods">
+            <!-- 图片 -->
+            <image class="item-pic" mode='aspectFill' src="{{item.picturePath}}"></image>
+            <!-- 标题 -->
+            <view class="item-title">{{item.name}}</view>
+            <!-- 信息 -->
+            <view class="item-bt">
+                <view class="btn">立即兑换</view>
+                <view>积分：
+                    <text class="j-color">{{item.score}}</text>
+                </view>
+            </view>
+        </view>
+    </block>
+</view>

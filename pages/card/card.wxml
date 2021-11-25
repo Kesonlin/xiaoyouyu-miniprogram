@@ -1,0 +1,32 @@
+<view class="bg">
+
+    <!-- 绑定按钮 -->
+    <button class="bind" catchtap="to" data-path="../bindCard/bindCard">绑定</button>
+
+    <!-- 卡包 -->
+    <view>
+
+        <block wx:for="{{cards}}" wx:key="{{index}}">
+
+            <!-- 卡包内 -->
+            <view class="cardOut">
+                <!-- 羊城通 -->
+                <image src="../../img/YCTcard.png" mode="widthFix" catchtap="to" data-path="../exchange/exchange?id={{item.cardNumber}}">
+                    <view class="cardId">{{item.cardNumber}}</view>
+                </image>
+            </view>
+        </block>
+
+        <!-- 闲置卡包 -->
+        <view class="cardOut"></view>
+        <view class="cardOut"></view>
+        <view class="cardOut"></view>
+    </view>
+
+    <!-- 绑定按钮 -->
+    <button class="bind" catchtap="to" data-path="../bindCard/bindCard">绑定</button>
+
+
+
+
+</view>

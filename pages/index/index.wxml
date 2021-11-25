@@ -1,0 +1,82 @@
+<view class="bg">
+
+
+    <view class="header">
+        <!-- 个人欢迎信息 -->
+        <view class="content_header">
+            <view class="header_text">{{nowTime}}，{{userInfo.nickName}}</view>
+            <view class="text_sec">环保小达人，今天继续加油</view>
+        </view>
+        <!-- 积分/瓶子信息 -->
+        <view class="header_flex">
+            <view>积分：{{userData.score}}</view>
+            <!-- <view>瓶子：0</view> -->
+            <!-- {{userData.bottleCount}} -->
+        </view>
+    </view>
+
+    <!-- 羊城通管理入口 和 购物券入口 -->
+    <view class="select">
+        <view catchtap="to" data-path="../card/card">
+            <image src="../../img/card.png" mode="widthFix" class="select_img"></image>
+            <view>
+                <view>羊城通</view>
+                <view class="select_sec">积分兑换车费</view>
+            </view>
+        </view>
+        <view catchtap="to" data-path="../coupon/coupon">
+            <image src="../../img/coupon.png" mode="widthFix" class="select_img"></image>
+            <view>
+                <view>购物券</view>
+                <view class="select_sec">你买东西我买单</view>
+            </view>
+        </view>
+
+    </view>
+
+
+    <!-- 公众号文章 -->
+    <view class="article iconfont">
+        <!-- 顶部栏 -->
+        <view class="article-top">
+            <view>动态</view>
+            <view>查看全部</view>
+        </view>
+        <!-- 文章 -->
+        <view class="article-content" catchtap="to" data-path="../web/web">
+            <view class="article-content-text">
+                <view class="article-title1">小鱿鱼参加羊城通开发者大会</view>
+                <view class="article-title2">传数科技与羊城通公司强强联手推出小鱿鱼智能回收箱</view>
+            </view>
+            <!-- <view > -->
+                <image src="/assets/img/official.jpg" mode="aspectFill" class="article-content-pic"></image>
+            <!-- </view> -->
+        </view>
+    </view>
+
+    <!-- 广告栏位置 -->
+    <!-- <view class="ad">
+        <image src="../../img/ad.png" mode="widthFix"></image>
+    </view> -->
+
+    <!-- 扫一扫按钮 -->
+    <view class="scan" >
+        <view class="btn" bindtap='getScancode'>扫一扫</view>
+
+    </view>
+
+    <!-- <view class="clean_bottom"></view> -->
+
+    <!-- 我的 和 找箱子 入口 -->
+    <view class="fixed">
+        <view class="bottom">
+            <view catchtap="to" data-path="../myInfo/myInfo">我的</view>
+            <view catchtap="to" data-path="../shopping/shopping">积分商城</view>
+            <view catchtap="to" data-path="../map/map">找箱子</view>
+        </view>
+
+    </view>
+
+
+
+</view>

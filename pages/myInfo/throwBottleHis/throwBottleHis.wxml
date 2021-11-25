@@ -1,0 +1,19 @@
+<view class="bottleSum">
+<view class="word">共投</view>
+<view class="total"><text>200</text>个</view>
+</view>
+<view class="bottleRecord">
+  <view class="item">
+    <view class="throwInfo">
+    <text class="dataTime">2021年1月22日 </text>
+    <text class="weekTime">周五 12:00</text>
+    <text class="sunTime"><text>7</text>个</text>
+    </view>
+    <view class="bottleInfo">
+    <view class="bottleDetail">
+      <image mode="aspectFit" ></image>
+      <view><text>怡宝：</text><text class="bottleNet">555ml</text></view>
+    </view>
+    </view>
+  </view>
+</view>

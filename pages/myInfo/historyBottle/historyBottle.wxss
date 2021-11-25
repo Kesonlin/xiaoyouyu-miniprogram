@@ -1,0 +1,75 @@
+/* pages/myInfo/historyBottle/historyBottle.wxss */
+
+.bg {
+    background-color: #f2f6f9;
+    overflow: hidden;
+}
+
+/* 单元 */
+
+.item {
+    margin: 20rpx auto;
+    width: 92vw;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0 25rpx;
+    overflow: hidden;
+    
+}
+
+.item-title {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 30rpx 0;
+    font-size: 36rpx;
+}
+
+.item-title :last-child {
+    margin-left: auto;
+}
+
+.item-time {
+    position: relative;
+    font-size: 28rpx;
+    margin: 30rpx 0;
+    padding-left: 40rpx;
+}
+
+.item-time::before {
+    content: "\e87e";
+    position: absolute;
+    left: 0;
+    font-size: 28rpx;
+    line-height: 28rpx;
+    transform: translateY(20%);
+}
+
+.item-loc {
+    position: relative;
+    font-size: 28rpx;
+    margin: 30rpx 0;
+    margin-bottom: 50rpx;
+    /* padding-left: 40rpx; */
+}
+
+
+.item-loc image{
+    width: 30rpx;
+    vertical-align: middle;
+}
+
+.item-loc text{
+    display: inline-block;
+    padding-left: 10rpx;
+}
+
+.not-get{
+    color: #dd621a;
+}
+
+.not-history{
+    color: #dd621a;
+    margin-top: 25vh;
+    text-align: center;
+}

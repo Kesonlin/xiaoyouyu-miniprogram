@@ -1,0 +1,13 @@
+<!--pages/getScore/getScore.wxml-->
+<view class="header">领取积分</view>
+<view class="content-bg">
+  <view class="receive-score">
+    <image src="../../img/score.png" alt="" mode="aspectFit" />
+    <view class="receive-score-success">确认领取</view>
+    <view class="get-score"><text>{{userData.receiveScore}}</text>积分</view>
+    <button class="confirm-btn" data-url="/pages/getScore/getSuccess/getSuccess"
+    bindtap="receiveScore">收下</button>
+    <button class="cancel-btn" data-url="/pages/index/index" bindtap="toPage">取消</button>
+  </view>
+</view>
+<view class="footer"></view>

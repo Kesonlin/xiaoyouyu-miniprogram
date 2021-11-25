@@ -1,0 +1,22 @@
+<view class="bg">
+    <!-- input--输入卡号 -->
+    <view class="inputView"  >
+        <input value='{{cardNum}}' placeholder="先输入羊城通卡号咯(10位数字)" bindinput='getCardNum' maxlength="10" type='number'></input>
+    </view>
+
+
+    <!-- 绑定按钮 -->
+    <view class="btnView">
+        <button bindtap="bindCard">就要绑定它</button>
+
+    </view>
+
+
+    <!-- tip小提示 -->
+    <view class="out">
+        <image src="../../img/egCard.png" mode="widthFix"></image>
+    </view>
+
+
+
+</view>

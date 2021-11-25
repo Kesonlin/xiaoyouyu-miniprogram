@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00a0ae",
+    "navigationBarTitleText": "领取积分",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  
+}

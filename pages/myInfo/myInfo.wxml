@@ -1,0 +1,131 @@
+<view class="bg iconfont">
+
+    <!-- 个人信息展示及占位 -->
+    <view class="header">
+        <!-- 用户信息卡 -->
+        <block wx:if="{{isLogin}}">
+            <view class="userInfo">
+                <view class="avout">
+                    <view class="avatar">
+                        <!-- 头像 -->
+                        <image src="{{userInfo.avatarUrl}}" mode="widthFix"></image>
+                    </view>
+                </view>
+                <view class="userText">
+                    <!-- 个人信息 -->
+                    <!-- 用户名 -->
+                    <view>{{userInfo.nickName}}</view>
+                    <!-- 手机号 -->
+                    <view>{{userData.telephoneNumber}}</view>
+                </view>
+            </view>
+        </block>
+        <block wx:else>
+            <button bindtap="login" class="loginBtn">点击登录</button>
+        </block>
+        <view class="clean"></view>
+    </view>
+
+    <!-- 用户详细相关信息 -->
+    <view class="content-title">累计</view>
+    <view class="content">
+        <view class="in-content">
+            <view class="item">
+
+                <view><image src="../../img/myScore.png" mode="aspectFit" class="user-icon"></image>积分累计</view>
+                <view>当前积分为
+                    <text>{{userData.score}}</text>
+                    分
+                </view>
+            </view>
+
+            <view class="item">
+                <view><image src="../../img/myBottle.png" mode="aspectFit"   class="user-icon"></image>瓶子累计</view>
+                <view>当前已回收瓶子为
+                    <text>{{userData.score}}</text>
+                    个瓶子
+                </view>
+            </view>
+            <!-- <view class="item icon2">
+                <view>瓶子累积</view>
+                <view>当前已回收瓶子为
+                    <text>{{userDataA.bottleCount}}个 </text>瓶子</view>
+            </view> -->
+        </view>
+    </view>
+    <view class="content-title">优惠券</view>
+    <view class="content">
+        <view class="in-content">
+            <view class="item" data-url="" bindtap="toPage">
+                <view><image src="../../img/myNotUsed.png" mode="aspectFit"   class="user-icon"></image>待使用</view>
+                <view class="arrow">
+                </view>
+            </view>
+            <view class="item" data-url="" bindtap="toPage">
+                <view><image src="../../img/myHaveUsed.png" mode="aspectFit"   class="user-icon"></image>已使用</view>
+                <view class="arrow">
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="content-title">历史</view>
+    <view class="content">
+        <view class="in-content">
+            <!-- <view class="item icon3" data-url="/pages/myInfo/historyBottle/historyBottle" bindtap="toPage">
+                <view>投瓶历史</view>
+                <view class="arrow">
+                </view>
+            </view> -->
+            <view class="item" data-url="/pages/myInfo/throwBottleHis/throwBottleHis" bindtap="toPage">
+                <view><image src="../../img/myBottleHis.png" mode="aspectFit"   class="user-icon"></image>投瓶历史</view>
+                <view class="arrow">
+                </view>
+            </view>
+            <view class="item" data-url="/pages/myInfo/historyExchange/historyExchange" bindtap="toPage">
+                <view><image src="../../img/myExchangeHis.png" mode="aspectFit"   class="user-icon"></image>兑换历史</view>
+                <view class="arrow">
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class="content-title">服务</view>
+    <view class="content">
+        <view class="in-content">
+            <view class="item" data-url="/pages/myInfo/faceCheck/faceCheck" bindtap="toPage">
+                <view><image src="../../img/myFaceReco.png" mode="aspectFit"   class="user-icon"></image>人脸验证</view>
+                <view class="arrow">
+                    <text>未完成</text>
+                </view>
+            </view>
+            <view class="item" data-url="/pages/myInfo/aboutAs/aboutAs" bindtap="toPage">
+                <view><image src="../../img/myAbout.png" mode="aspectFit"   class="user-icon"></image>关于我们</view>
+                <view class="arrow">
+                </view>
+            </view>
+            <view class="item">
+                <view><image src="../../img/myContact.png" mode="aspectFit"   class="user-icon"></image>联系客服</view>
+                <view>打这个电话
+                    <text>{{userDataA.tel}} </text>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+
+
+
+    <!-- ***人脸识别*** -->
+    <!-- <view class="scan" bindtap="faceLogin">
+        <view class="btn">
+            <image src="../../img/avatarS.png" mode="widthFix"></image>
+        </view>
+
+    </view> -->
+    <!-- tip小提示 -->
+    <!-- <view class="tip">人脸验证，领积分就不用手机了</view> -->
+
+
+</view>

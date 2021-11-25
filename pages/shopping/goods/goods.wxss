@@ -1,0 +1,61 @@
+/* pages/shopping/goods/goods.wxss */
+.bg{
+    background-color: #f2f2f2;
+}
+
+.good-info{
+    background-color: white;
+    overflow: hidden;
+}
+
+.good-info image{
+    width: 100vw;
+}
+
+.good-info-title{
+    margin: 30rpx 0 30rpx 30rpx; 
+    font-size: 34rpx;
+    font-weight: bold;
+}
+
+.good-info-num{
+    margin: 30rpx 0 30rpx 30rpx; 
+    color: #dd621a;
+    font-size: 30rpx;
+}
+
+.good-introduce{
+    background-color: white;
+    overflow: hidden;
+    margin-top: 40rpx;
+    min-height: 700rpx;
+}
+
+
+.good-introduce-title{
+    margin: 30rpx 0 30rpx 30rpx;
+    font-size: 28rpx;
+}
+
+
+
+.btn{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    background-color: #00a0ae;
+    font-size: 36rpx;
+    font-weight: bold;
+    padding: 30rpx 0;
+    color: white;
+}
+
+.good-introduce-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dd621a;
+    font-size: 30rpx;
+    height: 300rpx;
+}

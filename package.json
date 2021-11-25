@@ -1,0 +1,16 @@
+{
+  "name": "yctdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.0.0",
+    "js-md5": "^0.7.3",
+    "miniprogram-datepicker": "^0.3.0"
+  }
+}

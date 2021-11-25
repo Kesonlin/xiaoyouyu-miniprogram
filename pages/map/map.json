@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "yy-search":"./childCpns/yy-search/yy-search"
+    },
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00a0ae",
+    "navigationBarTitleText": "地图找箱子",
+    "navigationBarTextStyle": "white"
+}

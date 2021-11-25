@@ -1,0 +1,48 @@
+/* pages/exchange/exchange.wxss */
+
+.inputView {
+    margin: 0 auto;
+    margin-top: 40rpx;
+    padding: 20rpx;
+    width: 75vw;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20rpx;
+}
+
+.btnView {
+    margin: 0 auto;
+    margin-top: 80rpx;
+    padding: 20rpx;
+    width: 75vw;
+    background-color: #00a0ae;
+    text-align: center;
+    border-radius: 20rpx;
+}
+
+.btnView button {
+    border: 0;
+    background-color: #00a0ae;
+    font-size: 40rpx;
+    line-height: 60rpx;
+    color: white;
+}
+
+.btnView button::after {
+    border: 0;
+}
+
+.card image {
+    position: relative;
+    width: 100vw;
+}
+
+.cardId {
+    position: absolute;
+    z-index: 1;
+    bottom: 35rpx;
+    right: 50rpx;
+    color: white;
+    text-shadow: 0rpx 5rpx 20rpx gray;
+    font-size: 30rpx;
+}

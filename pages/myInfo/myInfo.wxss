@@ -1,0 +1,253 @@
+page {
+    background-color: #f2f6f9;
+}
+
+.bg {
+    margin-bottom: 50rpx;
+    /* background-color: #e6e2e7; */
+    background-color: #f2f6f9;
+    height: auto;
+}
+
+.header {
+    border: 1rpx transparent solid;
+    width: 100vw;
+    background-color: #00a0ae;
+}
+
+.userInfo{
+    padding-left: 80rpx;
+    display: flex;
+
+    
+}
+
+.avout{
+    flex: 3;
+}
+
+.avatar{
+    border-radius: 50% 50%;
+    overflow: hidden;
+    font-size: 0;
+    width: 150rpx;
+    
+}
+
+.avatar image{
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.userText{
+    flex: 7;
+    color: white;
+}
+
+.userText>view:first-child{
+    font-size: 40rpx;
+    margin: 10rpx 0;
+}
+
+
+.userText>view:last-child{
+    font-size: 30rpx;
+    line-height: 30rpx;
+}
+
+.clean{
+    padding:10rpx 0 ;
+}
+
+
+
+/* 信息栏 */
+
+.content{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25rpx;
+    background-color: #ffffff;
+    width: 92vw;
+    /* border: 1px solid #e6e2e7; */
+    border-radius: 15rpx;
+}
+
+.in-content{
+    width: 85vw;
+    margin: 0 auto;
+    /* margin-top: 10rpx; */
+    background-color: #ffffff;
+}
+
+.item{
+    display: flex;
+    padding: 20rpx 0 ;
+    /* padding-left: 80rpx; */
+
+    border-bottom: #e4e4e4 1px solid;
+
+}
+
+.user-icon {
+    /* margin-right: 80rpx; */
+    margin: 0 80rpx 0 20rpx;
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: top;
+}
+
+.item:last-child{
+    border: 0;
+}
+
+.item text{
+    color: #dd621a;
+}
+
+.item>view:first-child{
+    /* flex: 3;     */
+    font-size: 30rpx;
+}
+
+.item>view:last-child{
+    flex: 7;
+    font-size: 22rpx;
+    text-align: right;
+    align-self: center;
+    
+}
+
+.content-title{
+    color: gray;
+    margin: 30rpx 0 10rpx 5vw;
+    /* font-weight: bold; */
+    font-size: 28rpx;
+}
+
+/* 信息栏icon */
+
+.icon1::before{
+    position: absolute;
+    content: '\e62d';
+    left: 65rpx;
+    font-size: 45rpx;
+    color: #ff8234;
+}
+
+.icon2::before{
+    position: absolute;
+    content: "\e658";
+    left: 65rpx;
+    font-size: 45rpx;
+    color: #3dfb4a;
+}
+
+.icon3::before{
+    position: absolute;
+    content: "\e60d";
+    left: 65rpx;
+    font-size: 45rpx;
+    color: #ffbd27;
+}
+.icon4::before{
+    position: absolute;
+    content: "\e60e";
+    left: 65rpx;
+    font-size: 45rpx;
+    color: #cb894d;
+}
+.icon5::before{
+    position: absolute;
+    content: "\e610";
+    left: 65rpx;
+    font-size: 45rpx;
+    color: #13b8e2;
+}
+.icon6::before{
+    position: absolute;
+    content: "\e62e";
+    left: 65rpx;
+    font-size: 45rpx;
+    color: #ff6e14;
+}
+
+.icon7::before{
+    position: absolute;
+    content: "\e61a";
+    left: 65rpx;
+    font-size: 45rpx;
+    color: #0474f1;
+}
+
+.arrow{
+    position: relative;
+    height: 44rpx;
+}
+
+.arrow::after{
+    content: "\e637";
+    color: #dbdbdb;
+    font-size: 80rpx;
+    /* font-weight: bold; */
+    position: absolute;
+    right: 0;
+    bottom: -20rpx;
+}
+
+
+.arrow text{
+    /* position: absolute; */
+    display: inline-block;
+    padding-right: 70rpx;
+    line-height: 44rpx;
+    
+}
+
+
+
+
+
+/* 扫码 */
+
+.scan {
+    margin-top: 45rpx;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    background-color: #00a0ae;
+    border-radius: 50% 50%;
+    border: 22rpx white solid;
+    width: 150rpx;
+    height: 150rpx;
+    line-height: 150rpx;
+    color: white;
+}
+
+.btn image{
+    position: absolute;
+    width: 100rpx;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.tip{
+    margin-top: 22rpx;
+    text-align: center;
+    color: #dd621a;
+    font-size: 25rpx;
+    letter-spacing: 5rpx;
+}
+
+.loginBtn{
+    margin: 30rpx 60rpx;
+    margin-top: 70rpx;
+}
+

@@ -1,0 +1,35 @@
+/* pages/myInfo/aboutAs/companyCapacity/companyCapacity.wxss */
+
+.bg {
+    background-color: white;
+    overflow: hidden;
+}
+
+.table {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 40rpx;
+    font-size: 28rpx;
+}
+
+.table>view {
+    display: flex;
+    /* flex-wrap: nowrap; */
+}
+
+.table>view>view {
+    border: 1rpx rgb(221, 221, 221) solid;
+}
+
+.table>view>view:nth-child(1) {
+    /* background-color: rebeccapurple; */
+    text-align: center;
+    flex: 4;
+    flex-wrap: nowrap;
+}
+
+.table>view>view:nth-child(2) {
+    /* background-color: darkblue; */
+    flex: 7;
+    text-align: center;
+}

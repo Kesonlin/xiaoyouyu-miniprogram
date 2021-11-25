@@ -1,0 +1,38 @@
+<view class='bg iconfont'>
+
+    <!-- 遍历 -->
+    <block wx:if='{{loadingEnd}}'>
+
+
+        <block wx:if='{{true}}'>
+            <view class="item" wx:for='{{data}}'>
+                <view class="item-title">
+
+                    <!-- 回收瓶子类型 -->
+                    <view wx:if='{{item.type===1}}'>塑料瓶</view>
+                    <view wx:elif='{{item.type===0}}'>未符合回收标准</view>
+                    <view wx:else>数据出错</view>
+
+                    <!-- 积分领取状态 -->
+                    <view wx:if='{{item.type===0}}'>未能领取积分</view>
+                    <view wx:elif='{{item.status===1}}'>已领取积分</view>
+                    <view wx:elif='{{item.status===0}}' class="not-get">未领取积分</view>
+                    <view wx:else>积分出错</view>
+
+                </view>
+                <view class="item-time">{{item.date}}</view>
+                <view class="item-loc">
+                    <image src="/assets/img/logoicon.jpg" mode="widthFix"></image>
+
+                    <text>{{item.model}}</text>
+                </view>
+            </view>
+        </block>
+
+
+        <block wx:else>
+            <view class="not-history">暂无投瓶历史</view>
+        </block>
+
+    </block>
+</view>
